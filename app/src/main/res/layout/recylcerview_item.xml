@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_margin="5dp">
+                <TextView
+                    android:id="@+id/nameText"
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:text="이름"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:background="@color/colorBackGround2"
+                    android:textColor="@color/colorBlack"
+                    android:layout_weight="6"
+                    android:textSize="30sp"/>
+                <TextView
+                    android:id="@+id/ageText"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="나이"
+                    android:gravity="center"
+                    android:textColor="@color/colorPink"
+                    android:background="@color/colorBackGround3"
+                    android:layout_weight="1"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/delete_item"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/ic_delete_black_24dp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
