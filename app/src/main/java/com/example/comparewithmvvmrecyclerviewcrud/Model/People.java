@@ -1,4 +1,4 @@
-package com.example.comparewithmvvmrecyclerviewcrud;
+package com.example.comparewithmvvmrecyclerviewcrud.Model;
 
 public class People {
     String name;

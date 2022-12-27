@@ -1,8 +1,6 @@
-package com.example.comparewithmvvmrecyclerviewcrud;
+package com.example.comparewithmvvmrecyclerviewcrud.Adapter;
 
 import android.content.Context;
-import android.content.Intent;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,6 +9,9 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.comparewithmvvmrecyclerviewcrud.Model.People;
+import com.example.comparewithmvvmrecyclerviewcrud.R;
 
 import java.util.ArrayList;
 
